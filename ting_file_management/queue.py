@@ -18,7 +18,7 @@ class Queue(AbstractQueue):
             return None
 
     def search(self, index):
-        if not 0 <= index <= len(self.__data) - 1:
-            raise IndexError("Índice Inválido ou Inexistente")
-        else:
+        if 0 <= index < len(self.__data):
             return self.__data[index]
+        else:
+            raise IndexError("Índice Inválido ou Inexistente")
