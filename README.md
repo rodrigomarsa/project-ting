@@ -1,4 +1,4 @@
-# Projeto TING (Trybe is not Google)!
+# Projeto `TING (Trybe is not Google)`
 
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
